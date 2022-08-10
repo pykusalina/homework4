@@ -13,22 +13,29 @@
 // Task 2
 // function checkAge(age) {
 //     prompt('how old are you?', age);
+//     try {
+//         if (age.length = 0) {
+//         throw 'empty string'
+//     }
+// } catch (error) {
+//     console.log(error)
+// };
 //     try { 
 //         if  (!Number(age)) {
 //             throw 'not a numb';
 //         }
 //     } catch (error) {
 //         console.log(error);
-//     }
+//     };
 
 //     try {
-//         if (age > 14) {
+//         if (age < 14) {
 //             throw 'not rigth age';
 //         }
 //     } catch (error) {
 //         console.log(error);
 //     }
-// }
+// };
 
 // Task 3
 // class MonthException {
@@ -36,14 +43,14 @@
 //         this.month = month;
 //     } 
 // }
-//     const name = ['sep', 'oct', 'nov'];
+//     const name = ['sep', 'oct', 'nov', 'dec', 'jan', 'feb', 'march, 'apr', 'may', 'june', 'july', 'agust'];
 
 //     const monthNum = new MonthException()
 //     for(let i = 0; i < name.length; i++) {
 //         return monthNum[i] = name[i];
 //     }
 //     function showMonthName(month) {
-//         let a = Number(prompt('enter'));
+//         let question = Number(prompt('enter month'));
 //          try {
 //         if (a = !Number) {
 //             throw 'not a number'
@@ -88,4 +95,4 @@
 //     console.log(error)
 // }
 // }
-// showUsers();
+// showUsers(ShowUser());
